@@ -9,7 +9,7 @@ export default {
   head: {
     title: 'mysite',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ja',
     },
     meta: [
       { charset: 'utf-8' },
@@ -23,7 +23,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/vuikit'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
