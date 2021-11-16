@@ -20,10 +20,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~/assets/style/global.sass'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['@/plugins/vuikit'],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -34,7 +34,13 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/style-resources',
+    '@nuxtjs/color-mode',
   ],
+
+  styleResources: {
+    sass: ['~/assets/style/_variables.sass', '~/assets/style/breakpoint.sass'],
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
