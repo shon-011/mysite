@@ -39,11 +39,15 @@ export default {
   ],
 
   styleResources: {
-    sass: ['~/assets/style/_variables.sass', '~/assets/style/breakpoint.sass'],
+    sass: [
+      '~/assets/style/_variables.sass',
+      '~/assets/style/_breakpoint.sass',
+      '~/assets/style/_animation.sass',
+    ],
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['nuxt-svg-loader'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
