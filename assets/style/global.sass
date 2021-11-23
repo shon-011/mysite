@@ -1,0 +1,18 @@
+/* stylelint-disable primer/no-unused-vars */
+// @use "variables"
+@import "_variables"
+
+
+body
+  font-family: "Menlo", "Courier", monospace
+a
+  text-decoration: none
+  color: inherit
+
+.light-mode body
+  color: $font-color-dark
+  background: $bg-light-mode
+
+.dark-mode body
+  color: $font-color-light
+  background: $bg-dark-mode
