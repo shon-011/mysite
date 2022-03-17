@@ -33,7 +33,7 @@
     "eslint-plugin-vue": "^7.7.0",
     "fibers": "^5.0.0",
     "nuxt-svg-loader": "^1.2.0",
-    "prettier": "^2.2.1",
+    "prettier": "^2.6.0",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "sass": "^1.43.4",
